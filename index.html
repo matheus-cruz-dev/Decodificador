@@ -2,15 +2,15 @@
 <html lang="pt-BR">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Decodificador</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter&display=swap"
-    rel="stylesheet" />
 </head>
 
 <body>
@@ -22,19 +22,18 @@
     </svg>
   </header>
   <main>
-    <section>
+    <section class="area-encrypt">
       <textarea name="" id="" cols="30" rows="10" placeholder="Dígite seu texto" class="input-texto"></textarea>
       <div class="buttons">
-        <button class="encrypt" onclick="btnEncript()">Encriptografar</button>
+        <button class="encrypt" onclick="btnEncript()">Criptografar</button>
         <button class="descrypt" onclick="btnDescript()">Descriptografar</button>
       </div>
     </section>
-    <section>
+    <section class="area-descrypt">
       <textarea name="" id="" cols="30" rows="10" class="mensagem"></textarea>
     </section>
   </main>
   <script src="app.js"></script>
-  
 </body>
 
 </html>

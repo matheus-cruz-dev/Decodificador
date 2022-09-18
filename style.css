@@ -5,14 +5,107 @@
 }
 
 :root {
-  font-size: 62.5rem;
+  font-size: 62.5%;
 }
 
 body {
-  width: 144rem;
-  height: 102.4rem;
+  width: 90%;
+  height: 90vh;
+
+  background-color: #f3f5fc;
+
+  font-family: 'Inter', sans-serif;
+
+  display: flex;
+}
+
+header {
+  margin-left: 8.4rem;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
 }
 
 main {
   width: 100%;
+  display: flex;
+}
+
+textarea {
+  border: none;
+  background: none;
+  resize: none;
+}
+
+.area-encrypt {
+  margin-top: 16.8rem;
+  margin-left: 24rem;
+  margin-right: 8rem;
+}
+
+.area-encrypt textarea {
+  width: 68rem;
+  height: 45rem;
+
+  background: none;
+
+  resize: none;
+
+  color: #0a3871;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+}
+
+.buttons {
+  margin-top: 10rem;
+  margin-bottom: 7.2rem;
+
+  display: flex;
+  gap: 2.4rem;
+}
+
+.buttons button {
+  background: white;
+
+  width: 32.8rem;
+  height: 6.7rem;
+
+  padding: 2.4rem;
+
+  border: 1px solid #0a3871;
+  border-radius: 2.4rem;
+
+  font-size: 1.6rem;
+  color: #0a3871;
+}
+
+.buttons button:nth-child(1) {
+  background: #0a3871;
+  color: white;
+}
+
+.area-descrypt {
+  width: 40rem;
+  height: 78rem;
+
+  margin: 4rem;
+
+  background-color: white;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+.area-descrypt textarea {
+  width: 33.6rem;
+  height: 60rem;
+
+  margin: 3.2rem;
+
+  color: #495057;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+textarea:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
